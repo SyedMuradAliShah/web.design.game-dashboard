@@ -1,430 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/scss/style.css" />
-    <link rel="stylesheet" href="assets/scss/all.min.css" />
-    <link rel="stylesheet" href="assets/scss/swiper.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/scss/style.css" />
+  <link rel="stylesheet" href="assets/scss/all.min.css" />
+  <link rel="stylesheet" href="assets/scss/swiper.css">
 </head>
+
 <body>
-<!-- ========================dashboard======================== -->
-<section class="dash-wrapper overflow-hidden">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3 col-xl-2 p-0">
-                <header class="navigation ">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
-                        <div class="container d-lg-block">
-                            <a class="navbar-brand position-relative z-3" href="./index.html">LOGO</a>
-                            <a href="../index.html" class="login-btn d-block d-lg-none">LOGIN</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <i class="fa-solid fa-bars"></i>
-                            </button>
-                            <div class="collapse navbar-collapse p-3 p-lg-0 d-lg-block w-100 mt-lg-5" id="navbarSupportedContent">
-                                <ul class="navbar-nav mb-2 mb-lg-0 d-block w-100">
-                                    <li class="nav-item">
-                                      <a class="nav-link active" aria-current="page" href="./index.html"
-                                        >Dashboard</a
-                                      >
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="../gamedashboard/index.html">Game dashboard</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./membership.html">Membership</a>
-                                    </li><li class="nav-item">
-                                      <a class="nav-link" href="./buy-package.html">Buy Packages</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./withdrawal-accounts.html">Withdrawal Accounts</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./balance.html">Balance</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./withdraw.html">Withdraw</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./withdrawal-histroy.html">Withdrawal Histroy</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Earn Money
-                                      </a>
-                                      <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="./daily-ads.html">Daily Ads</a></li>
-                                        <li><a class="dropdown-item" href="./typing-work.html">Typing Work</a></li>
-                                      </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./referrals.html">Referrals</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./affiliate-program.html">Affiliate Program</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./notifications.html">Notifications</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./official-groups.html">Official Groups</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./withdraw-proofs.html">Withdrawal Proofs</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./change-profile.html">Profile</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./course.html">Courses</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./contact.html">Contact Support</a>
-                                    </li>
-                                    <li class="nav-item ">
-                                        <a href="../index.html" class="primary-btn d-none d-lg-block mt-4">Logout</a>
-                                    </li>
-                                  </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </header>
-            </div>
-            <div class="col-lg-9 col-xl-10 p-0 ">
-                <div class="Dashboard-title p-3">
-                        <div class="row">
-                            <div class="d-block d-md-flex justify-content-between align-items-center">
-                                <div>
-                                    <h1>Glaxydollarmarvel</h1>
-                            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-                                <ol class="breadcrumb mb-0">
-                                  <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                                  <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-                                </ol>
-                              </nav>
-                                </div>
-                                <div class="d-block d-md-flex justify-content-between align-items-center">
-                                  <div class="dropdown me-4 mb-4 mb-lg-0">
-                                    <button class="btn position-relative" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      <i class="fa-solid fa-bell"></i>
-                                      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                                        99+
-                                        <span class="visually-hidden">unread messages</span>
-                                      </span>
-                                    </button>
-                                    <ul class="dropdown-menu p-0">
-                                      <li><a class="dropdown-item" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, maiores!</a></li>
-                                      <li><a class="dropdown-item" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, maiores!</a></li>
-                                      <li><a class="dropdown-item" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, maiores!</a></li>
-                                      
-                                    </ul>
-                                  </div>
-                                    <div class="profile-img mb-3 mb-md-0">
-                                        <img src="assets/images/member-1.jpg" alt="">
-                                    </div>
-                                    <div class="profile-name ms-0 ms-md-3">
-                                        <h5>Sulaiman Khan</h5>
-                                        <p class="m-0"><span class="me-4">Invest : $250</span> <span>Earning : $250</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="dash-content-wrapper p-3 p-lg-4">
-                  <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                      <strong>Alert Notification!</strong>
-                      اپنی انويسمنٹ صرف ویب سائٹ پر درج اکاؤنٹس میں بھیجیں۔ ویب سائٹ کے علاوہ کسی بھی اکاؤنٹ میں انويسمنٹ کے بعد دھوکہ دہی کی صورت میں ویب سائٹ ذمہ دار نہیں ہوگی۔
-                      
-                    </div>
-                    <div class="row align-items-center">
-                      <div class="col-lg-3">
-                        <div class="dash-box bg-secondary p-3">
-                            <h5 class="mb-4 pb-3 text-light">Account Health</h5>
-                          <div class="tool" style="width: 30%; background-color: black;">
-                            <span class="active">30%</span>
-                          </div>
-                          <div class="progress " style="height: 20px;">
-                            <div class="progress-bar bg-danger" style="width:29%">
-                              Poor
-                            </div>
-                            <div class="progress-bar bg-warning" style="width:21%">
-                              Fair
-                            </div>
-                            <div class="progress-bar bg-success" style="width:29%">
-                              Good
-                            </div>
-                            <div class="progress-bar bg-primary" style="width:21%">
-                              Excellent
-                            </div>
-                          </div>
-                          <div class="bar-labels d-flex gap-3 mt-3">
-                            <p class="mb-0 text-light"><span><i class="fa-solid fa-circle text-danger me-1"></i></span>0 - 29%</p>
-                            <p class="mb-0 text-light"><span><i class="fa-solid fa-circle text-warning me-1"></i></span>30% - 49%</p>
-                            <p class="mb-0 text-light"><span><i class="fa-solid fa-circle text-success me-1"></i></span>50% - 79%</p>
-                            <p class="mb-0 text-light"><span><i class="fa-solid fa-circle text-primary me-1"></i></span>80% - 100%</p>
-                          </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-9">
-                        <div class="upliner d-md-flex justify-content-between">
-                        <div class="mb-4 mb-lg-0">
-                            <h6>Upliner Info</h6>
-                        <p>Upliner ID : 13542</p>
-                        <p>Upliner Name : Murad ali shah</p>
-                        <p class="mb-0">Upliner Email : Murad @recmail.net</p>
-                        </div>
-                        <div>
-                            <h6>User Info</h6>
-                        <p>ID : 13542</p>
-                        <p>Name : Sulaiman khan</p>
-                        <p class="mb-0">Email : example@gmail.com</p>
-                        </div>
-                    </div>
-                      </div>
-                    </div>
-                    <div class="row mt-4">
-                      <div class="col-lg-9">
-                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3">
-                        
-                        <div class="col mb-4">
-                            <div class="dash-box p-3 box-1">
-                                <div>
-                                  <h3>$ 0.00</h3>
-                                  <h6>direct referral earning</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="dash-box p-3 box-2">
-                              <div>
-                                <h3>$ 0.00</h3>
-                                <h6><i class="fa-solid fa-money-bill-transfer"></i> Total Withdraw</h6>
-
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="dash-box p-3 box-3">
-                              <div>
-                                <h3>$ 0.00</h3>
-                                <h6><i class="fa-regular fa-hourglass-half"></i> Pending Withdraw</h6>
-
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="dash-box p-3 box-4">
-                              <div>
-                                <h3>$ 0.00</h3>
-                                <h6><i class="fa-solid fa-coins"></i> Current balance</h6>
-
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="dash-box p-3 box-5">
-                                <div>
-                                  <h3>$ 0.00</h3>
-                                  <h6><i class="fa-solid fa-sack-dollar"></i> Indirect Earning</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="dash-box p-3 box-6">
-                               <div>
-                                 <h3>$ 0.00</h3>
-                                 <h6><i class="fa-solid fa-sack-dollar"></i> Daily Ads</h6>
-                               </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="dash-box p-3 box-7">
-                               <div>
-                                 <h3>$ 0.00</h3>
-                                 <h6><i class="fa-solid fa-sack-dollar"></i> Paid Ads</h6>
-                               </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="dash-box p-3 box-8">
-                                <div>
-                                  <h3>$ 0.00</h3>
-                                  <h6><i class="fa-solid fa-sack-dollar"></i> Active Package</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4 mb-lg-0">
-                            <div class="dash-box p-3 box-9">
-                                <div>
-                                  <h3>$ 0.00</h3>
-                                  <h6><i class="fa-solid fa-sack-dollar"></i> Account Status</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4 mb-lg-0">
-                            <div class="dash-box p-3 box-10">
-                                <div>
-                                  <h3>$ 0.00</h3>
-                                  <h6><i class="fa-solid fa-sack-dollar"></i> User level</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4 mb-lg-0">
-                            <div class="dash-box p-3 box-11">
-                                <div>
-                                  <h3>$ 0.00</h3>
-                                  <h6><i class="fa-solid fa-sack-dollar"></i> Total Referrals</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4 mb-lg-0">
-                            <div class="dash-box p-3 box-12">
-                               <div>
-                                 <h3>$ 0.00</h3>
-                                 <h6><i class="fa-solid fa-sack-dollar"></i> Paid Referrals</h6>
-                               </div>
-                            </div>
-                        </div>
-                    </div>
-                      </div>
-                      <div class="col-lg-3">
-                        
-                      <div class="d-flex flex-column gap-2 dash-links">
-                        <a href="./buy-package.html">Buy Packages</a>
-                        <a href="./my-referrals.html">Refrrals</a>
-                        <a href="./daily-ads.html">Daily Ads</a>
-                        <a href="./daily-ads.html">Typing Work</a>
-                        <a href="./withdraw.html">Withdraw</a>
-                        <a href="./withdrawal-histroy.html">Withdraw History</a>
-                        <a href="./withdrawal-histroy.html">How to Work</a>
-                      </div>
-                       <div class="dash-refral-link mt-4 p-3 bg-secondary ">
-                        <h5>Invite Friend Earn Money</h5>
-                        <p class="m-0 text-break">https://www.glaxydollars.com/signup/?ref=172034</p>
-                    </div>
-                      </div>
-                    </div>
-                    
-                    <!-- ========================withdraw======================== -->
-            <section class="withdraw-sec mt-4">
-                <div class="container">
-                  <div class="row">
-                    <h5 class="heading">Withdrawal History</h5>
-                    <div class="table-responsive p-3 dash-table">
-                      <table class="table table-striped ">
-                        <thead>
-                          <tr>
-                            <th scope="col">Date</th>
-                            <th scope="col">Referral Code</th>
-                            <th scope="col">Requested amount</th>
-                            <th scope="col">Final amount</th>
-                            <th scope="col">Payment Method</th>
-                            <th scope="col">Account Holder Name</th>
-                            <th scope="col">Account Number</th>
-                            <th scope="col">Status</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>12 Sep, 2023</td>
-                            <td>893746</td>
-                            <td>$100</td>
-                            <td>$122</td>
-                            <td>Easypaisa</td>
-                            <td>Sulaiman</td>
-                            <td>+92-345-1234567</td>
-                            <td>Paid</td>
-                          </tr>
-                          <tr>
-                            <td>12 Sep, 2023</td>
-                            <td>893746</td>
-                            <td>$100</td>
-                            <td>$122</td>
-                            <td>Easypaisa</td>
-                            <td>Sulaiman</td>
-                            <td>+92-345-1234567</td>
-                            <td>Cancel</td>
-                          </tr>
-  
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <!-- ========================withdraw======================== -->
-              <!-- ========================referral======================== -->
-              <section class="withdraw-sec mt-5">
-                <div class="container">
-                  <div class="row">
-                    <h5 class="heading">Your Referrals</h5>
-                    <div class="table-responsive dash-table p-3">
-                        <table class="table table-striped ">
-                          <thead>
-                            <tr>
-                              <th scope="col">Name</th>
-                              <th scope="col">Email</th>
-                              <th scope="col">Phone</th>
-                              <th scope="col">Package</th>
-                              <th scope="col">Payment</th>
-                              <th scope="col">Upliner</th>
-                              <th scope="col">Referral code</th>
-                              <th scope="col">Status</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>Sulaiman khan</td>
-                              <td>example@gmail.com</td>
-                              <td>0345-1234567</td>
-                              <td>-------</td>
-                              <td>------</td>
-                              <td>------</td>
-                              <td>------</td>
-                              <td>Left</td>
-                            </tr>
-                            <tr>
-                              <td>Sulaiman khan</td>
-                              <td>example@gmail.com</td>
-                              <td>0345-1234567</td>
-                              <td>-------</td>
-                              <td>------</td>
-                              <td>------</td>
-                              <td>------</td>
-                              <td>Right</td>
-                            </tr>
-                            
-                          </tbody>
-                        </table>
-                        </div>
-                  </div>
-                </div>
-              </section>
-              <!-- ========================referral======================== -->
-              
-                </div>
-                
-    <div class="footer">
-        <div class="copyright-area">
-              <p>Copyright © <a href="index.html">Glaxydollar</a> - 2023. All Rights Reserved</p>
-          
+  <!-- ========================dashboard======================== -->
+  <div class="modal fade" id="alertModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="alert alert-primary alert-dismissible fade show mb-0" role="alert">
+            <strong>Alert Notification!</strong>
+            اپنی انويسمنٹ صرف ویب سائٹ پر درج اکاؤنٹس میں بھیجیں۔ ویب سائٹ کے علاوہ کسی بھی اکاؤنٹ میں انويسمنٹ کے بعد
+            دھوکہ دہی کی صورت میں ویب سائٹ ذمہ دار نہیں ہوگی۔
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+  <section class="dash-wrapper overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-xl-12 p-0 ">
+          <div class="Dashboard-title p-lg-3">
+            <div class="row">
+              <div class="d-block d-md-flex justify-content-between align-items-center">
+                <header
+                class="p-3 navigation d-flex gap-3 justify-content-between align-items-center">
+                <button class="btn primary-btn px-3 py-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <a class="navbar-brand position-relative z-3 me-0" href="./index.html">LOGO</a>
+              </header>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title text-gold" id="offcanvasExampleLabel">Glaxydollar</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav mb-2 mb-lg-0 d-block w-100">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../gamedashboard/index.html">Game dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./membership.html">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./buy-package.html">Buy Packages</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./withdrawal-accounts.html">Withdrawal Accounts</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./balance.html">Balance</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./withdraw.html">Withdraw</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./withdrawal-histroy.html">Withdrawal Histroy</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Earn Money
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./daily-ads.html">Daily Ads</a></li>
+                        <li><a class="dropdown-item" href="./typing-work.html">Typing Work</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./referrals.html">Referrals</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./affiliate-program.html">Affiliate Program</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./notifications.html">Notifications</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./official-groups.html">Official Groups</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./withdraw-proofs.html">Withdrawal Proofs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./change-profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./course.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">Contact Support</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="../index.html" class="primary-btn d-block mt-4">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+                <div class="px-3">
+                  <h1 class="d-none d-md-block">Glaxydollarmarvel</h1>
+                  <nav
+                    style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb my-2">
+                      <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                    </ol>
+                  </nav>
+                </div>
+                <div class="d-flex gap-2 align-items-center px-3">
+                  <div class="dropdown me-4 mb-4 mb-lg-0 d-none d-md-block">
+                    <button class="btn position-relative" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-bell"></i>
+                      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                    </button>
+                    <ul class="dropdown-menu p-0">
+                      <li><a class="dropdown-item" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Maxime, maiores!</a></li>
+                      <li><a class="dropdown-item" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Maxime, maiores!</a></li>
+                      <li><a class="dropdown-item" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Maxime, maiores!</a></li>
+
+                    </ul>
+                  </div>
+                  <div class="profile-img">
+                    <img src="assets/images/member-1.jpg" alt="">
+                  </div>
+                  <div class="profile-name ms-0 ms-md-3">
+                    <h6 class="text-white mb-2">Sulaiman Khan <span class="x-small fw-normal text-white">(ID
+                        #YE6385)</span></h6>
+
+                    <p class="m-0 small"><span class="me-4">Invest : $250</span> <span>Earning : $250</span></p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="dash-content-wrapper p-3 p-lg-4">
+
+            <div class="row align-items-center">
+              <div class="col-lg-3 mb-3 mb-lg-0 d-none d-lg-block">
+                <div class="dash-box py-3 bxg-secondary p-3">
+                  <h5 class="mb-4 pb-3 text-light">Account Health</h5>
+                  <div class="tool" style="width: 30%; background-color: black;">
+                    <span class="active">30%</span>
+                  </div>
+                  <div class="progress " style="height: 20px;">
+                    <div class="progress-bar bg-danger" style="width:29%">
+                      Poor
+                    </div>
+                    <div class="progress-bar bg-warning" style="width:21%">
+                      Fair
+                    </div>
+                    <div class="progress-bar bg-success" style="width:29%">
+                      Good
+                    </div>
+                    <div class="progress-bar bg-primary" style="width:21%">
+                      Excellent
+                    </div>
+                  </div>
+                  <div class="bar-labels d-flex gap-3 mt-3">
+                    <p class="mb-0 text-light"><span><i class="fa-solid fa-circle text-danger me-1"></i></span>0 - 29%
+                    </p>
+                    <p class="mb-0 text-light"><span><i class="fa-solid fa-circle text-warning me-1"></i></span>30% -
+                      49%</p>
+                    <p class="mb-0 text-light"><span><i class="fa-solid fa-circle text-success me-1"></i></span>50% -
+                      79%</p>
+                    <p class="mb-0 text-light"><span><i class="fa-solid fa-circle text-primary me-1"></i></span>80% -
+                      100%</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="upliner justify-content-between mb-2 gradient-bg">
+                  <h6>Upliner Info</h6>
+                  <p class="mb-0">Upliner ID : 13542</p>
+                  <p class="mb-0">Upliner Name : Murad ali shah</p>
+                  <p class="mb-0">Upliner Email : Murad @recmail.net</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-lg-9">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-2 row-cols-xl-3">
+
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-1">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Referral earning</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-2">
+                      <h6>$ 0.00</h3>
+                        <p class="mb-0 x-small">Total Withdraw</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-3">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Pending Withdraw</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-4">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Current balance</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-5">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Indirect Earning</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-6">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Daily Ads</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-7">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Paid Ads</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-8">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Active Package</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-9">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Account Status</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-10">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">User level</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-11">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Total Referrals</p>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="dash-box gradient-bg py-3 px-2 box-12">
+                      <h6>$ 0.00</h6>
+                      <p class="mb-0 x-small">Paid Referrals</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+
+                <div class="d-flex flex-wrap gap-2 dash-links  d-none d-lg-block">
+                  <a href="./buy-package.html" class="x-small">Buy Packages</a>
+                  <a href="./my-referrals.html" class="x-small">Refrrals</a>
+                  <a href="./daily-ads.html" class="x-small">Daily Ads</a>
+                  <a href="./daily-ads.html" class="x-small">Typing Work</a>
+                  <a href="./withdraw.html" class="x-small">Withdraw</a>
+                  <a href="./withdrawal-histroy.html" class="x-small">Withdraw History</a>
+                  <a href="./withdrawal-histroy.html" class="x-small">How to Work</a>
+                </div>
+                <div class="dash-refral-link my-4">
+                  <h6>Invite Friend Earn Money</h6>
+                  <p class="m-0 text-break x-small text-gold">https://www.glaxydollars.com/signup/?ref=172034</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ========================withdraw======================== -->
+            <section class="withdraw-sec mt-4 d-none d-lg-block">
+              <div class="row">
+                <div class="col-12">
+                  <h5 class="heading">Withdrawal History</h5>
+                  <div class="table-responsive p-3 dash-table">
+                    <table class="table table-striped ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Date</th>
+                          <th scope="col">Referral Code</th>
+                          <th scope="col">Requested amount</th>
+                          <th scope="col">Final amount</th>
+                          <th scope="col">Payment Method</th>
+                          <th scope="col">Account Holder Name</th>
+                          <th scope="col">Account Number</th>
+                          <th scope="col">Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>12 Sep, 2023</td>
+                          <td>893746</td>
+                          <td>$100</td>
+                          <td>$122</td>
+                          <td>Easypaisa</td>
+                          <td>Sulaiman</td>
+                          <td>+92-345-1234567</td>
+                          <td>Paid</td>
+                        </tr>
+                        <tr>
+                          <td>12 Sep, 2023</td>
+                          <td>893746</td>
+                          <td>$100</td>
+                          <td>$122</td>
+                          <td>Easypaisa</td>
+                          <td>Sulaiman</td>
+                          <td>+92-345-1234567</td>
+                          <td>Cancel</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- ========================withdraw======================== -->
+            <!-- ========================referral======================== -->
+            <section class="withdraw-sec mt-5 d-none d-lg-block">
+              <div class="row">
+                <div class="col-12">
+                  <h5 class="heading">Your Referrals</h5>
+                  <div class="table-responsive dash-table p-3">
+                    <table class="table table-striped ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Name</th>
+                          <th scope="col">Email</th>
+                          <th scope="col">Phone</th>
+                          <th scope="col">Package</th>
+                          <th scope="col">Payment</th>
+                          <th scope="col">Upliner</th>
+                          <th scope="col">Referral code</th>
+                          <th scope="col">Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Sulaiman khan</td>
+                          <td>example@gmail.com</td>
+                          <td>0345-1234567</td>
+                          <td>-------</td>
+                          <td>------</td>
+                          <td>------</td>
+                          <td>------</td>
+                          <td>Left</td>
+                        </tr>
+                        <tr>
+                          <td>Sulaiman khan</td>
+                          <td>example@gmail.com</td>
+                          <td>0345-1234567</td>
+                          <td>-------</td>
+                          <td>------</td>
+                          <td>------</td>
+                          <td>------</td>
+                          <td>Right</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- ========================referral======================== -->
+
+          </div>
+
         </div>
+      </div>
     </div>
-</section>
- <div class="whatsapp-btn">
-    <a href="" class="text-white"><i class="fab fa-whatsapp fs-3"></i></a>
-   </div>
-<!-- ========================dashboard======================== -->
-    <script src="assets/js/swiper.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/javascript.js"></script>
-    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+  </section>
+ <div
+    class="mobilenav border-top border-white d-md-none position-fixed d-flex justify-content-between align-items-center w-100 px-4 py-2 start-0 bottom-0">
+    <a href="" class=""><i class="fab fa-whatsapp"></i></a>
+    <a href="./notifications.html" class=""><i class="fa-solid fa-bell"></i></a>
+    <a href="./index.html" class="active"><i class="fa-solid fa-house "></i></a>
+    <a href="./change-profile.html" class=""><i class="fa-solid fa-user"></i></a>
+    <a href="../login.html" class=""><i class="fa-solid fa-right-from-bracket"></i></a>
+  </div>
+  <!-- ========================dashboard======================== -->
+  <script src="assets/js/swiper.js"></script>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/javascript.js"></script>
+  <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

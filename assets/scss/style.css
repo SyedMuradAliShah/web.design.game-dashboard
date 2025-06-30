@@ -14,7 +14,7 @@ body {
 }
 
 .border-btn {
-  background-color: #07000e;
+  background-color: #2fa5fb;
   color: white;
   text-decoration: none;
   padding: 12px 30px;
@@ -32,7 +32,7 @@ body {
 }
 .border-btn:hover {
   background-color: #2fa5fb;
-  color: #07000e;
+  color: #2fa5fb;
 }
 .border-btn:hover i {
   opacity: 1;
@@ -100,7 +100,7 @@ body {
 }
 
 .navigation {
-  background-color: #07000e;
+  background-color: #2fa5fb;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -232,7 +232,7 @@ body {
 }
 
 .hero-sec {
-  background-color: #07000e;
+  background-color: #2fa5fb;
   position: relative;
 }
 .hero-sec .hero-text h5 {
@@ -287,7 +287,7 @@ body {
   font-weight: 600;
 }
 .hm-about .hm-abt-text h2 {
-  color: #07000e;
+  color: #2fa5fb;
   font-weight: 700;
   font-size: 2.5rem;
 }
@@ -295,7 +295,7 @@ body {
   color: #feb302;
 }
 .hm-about .hm-abt-text .title {
-  color: #07000e;
+  color: #2fa5fb;
 }
 .hm-about .hm-abt-text p {
   color: gray;
@@ -311,7 +311,7 @@ body {
   color: gray;
 }
 .hm-about .hm-abt-text ul li i {
-  color: #07000e;
+  color: #2fa5fb;
   margin-right: 5px;
 }
 .hm-about .hm-abt-text .experiences-item {
@@ -350,7 +350,7 @@ body {
 }
 
 .hm-service {
-  background-color: #07000e;
+  background-color: #2fa5fb;
   position: relative;
   width: 99%;
   margin-left: auto;
@@ -448,7 +448,7 @@ body {
 }
 #work_profile .choose-content h3 a {
   text-decoration: none;
-  color: #07000e;
+  color: #2fa5fb;
   font-weight: 700;
 }
 #work_profile .choose-content p {
@@ -475,7 +475,7 @@ body {
   font-weight: 600;
 }
 .heading h2 {
-  color: #07000e;
+  color: #2fa5fb;
   font-weight: 700;
   font-size: 2.5rem;
 }
@@ -498,7 +498,7 @@ body {
   border-radius: 15px 0px 0px 15px;
 }
 .hm-team .team-box .team-name h5 {
-  color: #07000e;
+  color: #2fa5fb;
   font-weight: 600;
 }
 .hm-team .team-box .team-name span {
@@ -508,7 +508,7 @@ body {
 }
 
 .testmonial {
-  background-color: #07000e;
+  background-color: #2fa5fb;
 }
 .testmonial .feedbox {
   border: 1px solid #feb302;
@@ -562,7 +562,7 @@ body {
   width: 100%;
 }
 .hm-contact .contact-form .form-heading h3 {
-  color: #07000e;
+  color: #2fa5fb;
   font-weight: 600;
 }
 .hm-contact .contact-form label {
@@ -582,7 +582,7 @@ body {
 }
 
 footer {
-  background-color: #07000e;
+  background-color: #2fa5fb;
 }
 footer .rotate-element {
   top: 0%;
@@ -642,12 +642,12 @@ footer .footer-box form button {
   padding: 8px 20px;
   border-radius: 4px;
   background: #2fa5fb;
-  color: #07000e;
+  color: #2fa5fb;
   font-size: 0.9rem;
 }
 footer .footer-box form button:hover {
   color: #ffffff;
-  background-color: #07000e;
+  background-color: #2fa5fb;
 }
 footer .footer-box .media a {
   border: 1px solid #feb302;
@@ -787,8 +787,8 @@ footer .footer-box .media a:hover {
   color: #f2f2f2;
 }
 .login-pg .form-sec form input {
-  background-color: #07000e;
-  border-color: #07000e;
+  background-color: #2fa5fb;
+  border-color: #2fa5fb;
   color: #f2f2f2;
 }
 .login-pg .form-sec form input:focus {
@@ -796,8 +796,8 @@ footer .footer-box .media a:hover {
   box-shadow: none;
 }
 .login-pg .form-sec form select {
-  background-color: #07000e;
-  border-color: #07000e;
+  background-color: #2fa5fb;
+  border-color: #2fa5fb;
   color: #f2f2f2;
 }
 .login-pg .form-sec form select:focus {

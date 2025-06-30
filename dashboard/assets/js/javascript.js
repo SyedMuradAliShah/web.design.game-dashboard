@@ -1,4 +1,7 @@
-//  ============================ image-preview
+ document.addEventListener("DOMContentLoaded", function () {
+    const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
+    alertModal.show();
+  });//  ============================ image-preview
 // script.js
 var btnUpload = $("#upload_file"),
 		btnOuter = $(".button_outer");

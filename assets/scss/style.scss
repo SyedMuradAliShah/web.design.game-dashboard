@@ -7,7 +7,7 @@
 
 $primary-color:#07000e;
 $yellow-color:#feb302;
-$secondary-color:#2fa5fb;
+$primary-color:#2fa5fb;
 $light-color:#f2f2f2;
 $gradient-start:#f88137;
 $gradient-end:#e12e5c;
@@ -25,7 +25,7 @@ body{
     border-radius: 3px;
     font-size: 0.8rem;
     letter-spacing: 1px;
-    border: 1px solid $secondary-color;
+    border: 1px solid $primary-color;
     transition: 0.3s all;
     i{
         margin-left: -10px;
@@ -34,7 +34,7 @@ body{
         transition: 0.3s all;
     }
     &:hover{
-        background-color: $secondary-color;
+        background-color: $primary-color;
         color: $primary-color;
         i{
             opacity: 1;
@@ -60,14 +60,14 @@ body{
     }
 }
 .light-btn{
-    background-color: $secondary-color;
+    background-color: $primary-color;
     color: #ffffff;
     text-decoration: none;
     padding: 12px 30px;
     border-radius: 3px;
     font-size: 0.8rem;
     letter-spacing: 1px;
-    border: 1px solid $secondary-color;
+    border: 1px solid $primary-color;
     i{
         margin-left: -10px;
         opacity: 0;
@@ -76,8 +76,8 @@ body{
     }
     &:hover{
         background-color: transparent;
-        color: $secondary-color;
-        border: 1px solid $secondary-color;
+        color: $primary-color;
+        border: 1px solid $primary-color;
         i{
             opacity: 1;
             margin-left: 4px;
@@ -286,7 +286,7 @@ body{
             font-size: 1.2rem;
         }
         p{
-            color: $secondary-color;
+            color: $primary-color;
             font-size: 0.8rem;
             font-weight: 600;
         }
@@ -606,13 +606,13 @@ body{
         input{
             &:focus{
                 box-shadow: none;
-                border-color: $secondary-color;
+                border-color: $primary-color;
             }
         }
         textarea{
             &:focus{
                 box-shadow: none;
-                border-color: $secondary-color;
+                border-color: $primary-color;
             }
         }
         button{
@@ -682,7 +682,7 @@ footer{
                 top: 4px;
                 padding: 8px 20px;
                 border-radius: 4px;
-                background: $secondary-color;
+                background: $primary-color;
                 color: $primary-color;
                 font-size: 0.9rem;
                 &:hover{
