@@ -1,7 +1,30 @@
  document.addEventListener("DOMContentLoaded", function () {
     const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
     alertModal.show();
-  });//  ============================ image-preview
+  });
+  
+
+//   copy-link
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.copy-icon').forEach(function (copyBtn) {
+      copyBtn.addEventListener('click', function () {
+        const refLink = this.closest('.copy-container').querySelector('.ref-link');
+        const refText = refLink.innerText.trim();
+
+        navigator.clipboard.writeText(refText).then(() => {
+          this.classList.add('pulse');
+          setTimeout(() => {
+            this.classList.remove('pulse');
+          }, 600);
+        }).catch(err => {
+          console.error('Clipboard error:', err);
+        });
+      });
+    });
+  });
+//   copy-link
+  
+  //  ============================ image-preview
 // script.js
 var btnUpload = $("#upload_file"),
 		btnOuter = $(".button_outer");

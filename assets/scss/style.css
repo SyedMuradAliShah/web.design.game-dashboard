@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+.gradient-bg {
+  background: linear-gradient(319deg, #000000 39%, #000000 14%, #f6ef95 119%) !important;
+  border: 1px solid #f6ef95;
+}
+
+.shadow {
+  box-shadow: rgb(255, 242, 64) 0px 5px, rgba(243, 229, 48, 0.6) 0px 10px, rgba(51, 23, 97, 0.2) 0px 15px, rgba(51, 23, 97, 0.1) 0px 20px, rgba(51, 23, 97, 0.05) 0px 25px !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -771,7 +780,6 @@ footer .footer-box .media a:hover {
 }
 .login-pg .form-sec {
   max-width: 500px;
-  background-color: #271d35;
   padding: 20px;
   border-radius: 20px;
 }
@@ -787,26 +795,32 @@ footer .footer-box .media a:hover {
   color: #f2f2f2;
 }
 .login-pg .form-sec form input {
-  background-color: #2fa5fb;
-  border-color: #2fa5fb;
+  background-color: #000000;
+  border-color: #000000;
   color: #f2f2f2;
+  border-color: #f6ef95;
 }
 .login-pg .form-sec form input:focus {
   border-color: #feb302;
   box-shadow: none;
 }
 .login-pg .form-sec form select {
-  background-color: #2fa5fb;
-  border-color: #2fa5fb;
+  background-color: #000000;
+  border-color: #000000;
   color: #f2f2f2;
+  border-color: #f6ef95;
 }
 .login-pg .form-sec form select:focus {
   border-color: #feb302;
   box-shadow: none;
 }
-.login-pg .form-sec form button {
-  background-image: linear-gradient(to right, #ff992e, #fe8934, #fc793b, #f86943, #f2594a, #f2594a, #f2594a, #f2594a, #f86943, #fc793b, #fe8934, #ff992e);
+.login-pg .form-sec form .button {
+  background: #f6ef95;
   color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000000;
+  border: 0;
 }
 .login-pg .form-sec form .form-floating {
   position: relative;
@@ -848,7 +862,7 @@ footer .footer-box .media a:hover {
   font-weight: 600;
   color: #feb302;
   text-transform: uppercase;
-  background: #271d35;
+  background: #000000;
   position: relative;
   z-index: 1;
 }

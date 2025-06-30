@@ -7,10 +7,20 @@
 
 $primary-color:#07000e;
 $yellow-color:#feb302;
+$gold-color:#f6ef95;
 $primary-color:#2fa5fb;
 $light-color:#f2f2f2;
 $gradient-start:#f88137;
 $gradient-end:#e12e5c;
+$gradient:linear-gradient(319deg, #000000 39%, #000000 14%, #f6ef95 119%) !important;
+$shadow:rgb(255 242 64) 0px 5px, rgb(243 229 48 / 60%) 0px 10px, rgba(51, 23, 97, 0.2) 0px 15px, rgba(51, 23, 97, 0.1) 0px 20px, rgba(51, 23, 97, 0.05) 0px 25px !important;
+.gradient-bg{
+    background: $gradient;
+    border: 1px solid $gold-color;
+}
+.shadow{
+box-shadow: $shadow;
+}
 html {
     scroll-behavior: smooth;
   }
@@ -819,7 +829,6 @@ footer{
     position: relative;
     .form-sec {
         max-width: 500px;
-        background-color: #271d35;
         padding: 20px;
         border-radius: 20px;
         h4{
@@ -835,9 +844,10 @@ footer{
                 color: $light-color;
             }
             input{
-                background-color: $primary-color;
-                border-color: $primary-color;
+                background-color: #000000;
+                border-color: #000000;
                 color: $light-color;
+                border-color: $gold-color;
                 &:focus{
                     border-color: $yellow-color;
                     box-shadow: none;
@@ -845,9 +855,10 @@ footer{
                 }
             }
             select{
-                background-color: $primary-color;
-                border-color: $primary-color;
+                background-color: #000000;
+                border-color: #000000;
                 color: $light-color;
+                border-color: $gold-color;
                 &:focus{
                     border-color: $yellow-color;
                     box-shadow: none;
@@ -855,9 +866,13 @@ footer{
                 }
             }
             
-                button {
-                    background-image: linear-gradient(to right, #ff992e, #fe8934, #fc793b, #f86943, #f2594a, #f2594a, #f2594a, #f2594a, #f86943, #fc793b, #fe8934, #ff992e);
+                .button{
+                    background: $gold-color;
                     color: white;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    color: #000000;
+                    border: 0;
                 }
                 .form-floating {
                     position: relative;
@@ -903,7 +918,7 @@ footer{
                 font-weight: 600;
                 color: $yellow-color;
                 text-transform: uppercase;
-                background: #271d35;
+                background: #000000;
                 position: relative;
                 z-index: 1;
             }
