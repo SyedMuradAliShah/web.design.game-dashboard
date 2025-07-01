@@ -39,9 +39,13 @@ body{
 .text-gold{
    color: $gold-color !important;
 }
-.text-gold{
-    color: $gold-color !important;
+.bg-yellow{
+    background-color: $yellow-color !important;
 }
+.text-yellow{
+    color: $yellow-color !important;
+}
+
 .bg-secondary{
     background-color: $primary-color !important;
 }
@@ -410,6 +414,12 @@ body{
     100% {
       transform: scale(1);
       color: #ffd700;
+    }
+  }
+  .dashbtns{
+    .icon{
+        height: 40px;
+        width: 40px;
     }
   }
         .profile-pg-box{

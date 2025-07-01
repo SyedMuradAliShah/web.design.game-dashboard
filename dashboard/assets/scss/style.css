@@ -40,8 +40,12 @@ body {
   color: #f6ef95 !important;
 }
 
-.text-gold {
-  color: #f6ef95 !important;
+.bg-yellow {
+  background-color: rgb(255, 242, 64) !important;
+}
+
+.text-yellow {
+  color: rgb(255, 242, 64) !important;
 }
 
 .bg-secondary {
@@ -485,6 +489,10 @@ body {
     transform: scale(1);
     color: #ffd700;
   }
+}
+.dash-wrapper .dash-content-wrapper .dashbtns .icon {
+  height: 40px;
+  width: 40px;
 }
 .dash-wrapper .dash-content-wrapper .profile-pg-box {
   background-color: #000000;
