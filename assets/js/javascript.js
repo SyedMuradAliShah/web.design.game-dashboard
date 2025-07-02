@@ -71,6 +71,9 @@ $('#myPartner').owlCarousel({
       0:{
           items:1
       },
+      320:{
+          items:2
+      },
       600:{
           items:3
       },
@@ -108,6 +111,9 @@ $('#myTrading').owlCarousel({
   responsive:{
       0:{
           items:1
+      },
+      320:{
+        items:2
       },
       600:{
           items:3
